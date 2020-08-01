@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Hotel-Management';
+  CurrentFeature = 'Recipes';
+
+
+  CurrentFeatureChg(feature: string)
+  {
+    this.CurrentFeature = feature;
+  }
 }

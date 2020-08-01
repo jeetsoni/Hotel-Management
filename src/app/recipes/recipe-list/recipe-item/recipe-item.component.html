@@ -1,0 +1,19 @@
+<a 
+style="cursor: pointer;"
+class="list-group-item list-group-item-action clearfix"
+[routerLink] = [index]
+routerLinkActive = "active">
+    <div class="float-left">
+        <h5 class="list-group-item-heading">{{element.name}}</h5>
+        <p class="list-group-item-text">{{element.description}}</p>
+    </div>
+    <span class="float-right">
+        <img 
+        width="100px"
+        height="100px"
+        src="{{element.imagePath}}" 
+        class="img-responsive rounded" 
+        alt="" 
+        style="max-height: 70px;">
+    </span>
+</a>
